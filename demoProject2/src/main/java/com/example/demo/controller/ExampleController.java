@@ -152,6 +152,63 @@ public class ExampleController {
 		return "example/ex3";
 	}
 	
+	@GetMapping("ex4")
+	public String ex4(Model model) {
+		
+		StudentDTO std = new StudentDTO("7890", "피카츄", 22);
+		model.addAttribute("std", std);
+		
+		MemberDTO mem= new MemberDTO("1234","둘리",33);
+		model.addAttribute("mem", mem);
+
+		
+		model.addAttribute("testIf", "테스트중");
+		
+		// num 100 값을 주고
+		// <h4 th:case="100">AAAAAAAAAAAA</h4>
+
+		model.addAttribute("num", "100");
+		
+		model.addAttribute("alpha", "A");
+		
+		
+		
+		
+		
+		
+		
+		
+		return "example/ex4";
+	}
+	
+	@GetMapping("ex5")
+	public String ex5(Model model) {
+		//message 값으로 전달할 값 작성하기
+		
+		model.addAttribute("message", "타임리프 + 자바스크립트 사용 예제");
+		
+		//std로 어떤 값을 저장해서 전달해준 것이 없음
+		
+		StudentDTO std = new StudentDTO();
+		std.setStudentNo("2222");
+		
+		std.setName("긴자료코");
+
+		model.addAttribute("std", std);
+		
+		
+		
+		
+		
+		MemberDTO mem = new MemberDTO();
+		mem.setMemberNo("1");
+		mem.setMemberName("궳둛셄렋");
+		mem.setMemberAge(30);
+		
+		model.addAttribute("mem", mem);
+		return "example/ex5";
+	}
+	
 	
 	
 	
