@@ -3,7 +3,6 @@ package com.example.demo.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.example.demo.dto.Goods;
@@ -13,12 +12,7 @@ import com.example.demo.service.GoodsService;
 //Controller 기능을 사용하지 못함
 @Controller
 public class GoodsController {
-	@GetMapping("/") //맨 앞 페이지에서 볼 화면 띄우기
-	public String registerForm(Model model) {
-		// DB에 값을 넣을 수 있도록 new Goods()를 이용해서 값이 들어갈 공간을 비어서 만들어주기
-		model.addAttribute("goods", new Goods());
-		return "index";
-	}
+	
 	
 	//GoodsService에 숫자값이아니면 들어가지 못하게 방지를 하거나, 비밀번호 암호화설정과 같은 상세기능을 넣고
 	// service를 호출해서 mapper java 파일에 값을 전달할 수 있도록 작성해주기
