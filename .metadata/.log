@@ -8357,3 +8357,49 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:19:42.754
 !MESSAGE Boot project ADDED: demoProject3-mybatis-mapper-insert-select
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:51.657
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-selec
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:51.658
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-select
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:51.658
+!MESSAGE Boot project REMOVED: demoProject3-mybatis-mapper-insert-select
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-06-18 17:49:51.724
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:56.569
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-selec
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:56.570
+!MESSAGE Boot project ADDED: demoProject3-mybatis-mapper-insert-selec
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:58.571
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-selec
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:58.571
+!MESSAGE Boot project REMOVED: demoProject3-mybatis-mapper-insert-selec
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:58.572
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-select
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-06-18 17:49:58.609
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:59.501
+!MESSAGE Classpath changed for project: demoProject3-mybatis-mapper-insert-select
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:49:59.501
+!MESSAGE Boot project ADDED: demoProject3-mybatis-mapper-insert-select
