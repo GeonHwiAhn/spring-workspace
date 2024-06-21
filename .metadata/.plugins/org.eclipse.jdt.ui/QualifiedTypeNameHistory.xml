@@ -6,4 +6,13 @@
     <fullyQualifiedTypeName name="com.example.demo.dto.StudentDTO"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.khmall.mapper.MemberMapper"/>
+    <fullyQualifiedTypeName name="com.khmall.mapper.SCMapper"/>
+    <fullyQualifiedTypeName name="com.khmall.service.SCService"/>
+    <fullyQualifiedTypeName name="java.lang.Module"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.khmall.service.PigService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 </qualifiedTypeNameHistroy>
