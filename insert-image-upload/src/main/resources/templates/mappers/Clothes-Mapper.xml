@@ -5,7 +5,7 @@
         
 <mapper namespace="com.khmall.mapper.Clothes-Mapper">
 	<select id="getAllClothes" resultType="com.khmall.dto.Clothes">
-		SELECT * FROM clothes;
+		SELECT * FROM clothes
 	</select>
 	
 	<select id="getPigById" resultType="com.khmall.dto.clothes" parameterType="int">
