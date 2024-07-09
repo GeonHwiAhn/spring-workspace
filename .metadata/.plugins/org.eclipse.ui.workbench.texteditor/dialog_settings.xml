@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="똥구멍"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="mall"/>
+			<item value="ajax"/>
 			<item value="pigservice"/>
 			<item value="똥구멍"/>
 		</list>
